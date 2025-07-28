@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>USER-FORM</title>
+</head>
+<body>
+    <div class="maincontainer">
+        <h1>
+            USER FORM
+        </h1>
+        <div class="subContainer">
+            <div class="inputBlock" style="border: 2px solid black;">
+                <label for="UserName">Enter Your Name</label><br>
+                <input type="text" id="UserName" name="UserName" placeholder="Your Name....." required>
+            </div><br><br>
+            <div class="inputBlock" style="border: 2px solid black;">
+                <label for="UserNumber">Enter Your Number</label><br>
+                <input type="number" id="Number" name="Number" placeholder="Your Number....." required>
+            </div><br><br>
+            <div class="inputBlock" style="border: 2px solid black;">
+                <label for="UserEmail">Enter Your Email</label><br>
+                <input type="email" id="Email" name="Email" placeholder="Your Email....." required>
+            </div><br><br>
+            <div class="inputBlock" style="border: 2px solid black;">
+                <label for="UserPassword">Create Your Password</label><br>
+                <input type="password" id="Password" name="Password" placeholder="Your Password....." required>
+            </div><br><br>
+        </div>
+        <div class="UserFeedback">
+            <label for="UserFeedback">Enter Your Feedback</label><br>
+            <textarea id="Feedback" name="Feedback" placeholder="Your Feedback....." required></textarea>
+        </div><br>
+        <div class="SubmitButton">
+            <button onclick="submitForm()">SUBMIT</button>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
